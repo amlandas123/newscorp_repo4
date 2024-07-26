@@ -2,7 +2,6 @@ pipeline {
   agent any
   stages {
     stage('Pull SCM') {
-      agent any
       steps {
         echo 'SCM Stage successfull'
       }
